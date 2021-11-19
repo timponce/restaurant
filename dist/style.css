@@ -6,7 +6,6 @@
 
 html {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    min-height: 100vh;
 }
 
 #content {
@@ -72,6 +71,9 @@ a {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -81,6 +83,21 @@ footer {
     margin-top: 0.5rem;
     padding-right: 1rem;
     column-gap: 1rem;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 3rem;
+}
+
+.menu-sub-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    margin: 1rem 3rem 1rem 5rem;
 }
 
 @media screen and (max-width: 1230px) {
