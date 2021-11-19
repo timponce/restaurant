@@ -95,6 +95,7 @@ footer {
     color: gray;
     margin-top: 0.5rem;
     padding-right: 1rem;
+    padding-bottom: 1rem;
     column-gap: 1rem;
 }
 
@@ -113,26 +114,7 @@ footer {
     margin: 1rem 3rem 1rem 5rem;
 }
 
-/* @media screen and (max-width: 1230px) {
-    #main-text {
-        top: 5rem;
-        left: 4rem;
-        font-size: 56px;
-    }
+.icon {
+    height: 96px;
+    width: 96px;
 }
-
-@media screen and (max-width: 1120px) {
-    #main-text {
-        top: 5rem;
-        left: 4rem;
-        font-size: 48px;
-    }
-}
-
-@media screen and (max-width: 970px) {
-    #main-text {
-        top: 5rem;
-        left: 4rem;
-        font-size: 36px;
-    }
-} */
