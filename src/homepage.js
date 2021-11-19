@@ -1,5 +1,6 @@
 const content = document.getElementById('content');
 
+import { loadContact } from './contact.js';
 import { loadMenu } from './menu.js';
 
 export function loadHeader () {
@@ -35,6 +36,8 @@ export function loadHeader () {
                     loadMain();
                 } else if (target === 'Menu') {
                     loadMenu();
+                } else if (target === 'Contact') {
+                    loadContact();
                 }
             });
         }
@@ -73,6 +76,7 @@ export function loadMain () {
 
     const main = document.createElement('div');
     main.id = 'main';
+    main.classList.add('main-home');
     const mainImg = document.createElement('img');
     mainImg.id = 'main-img';
     mainImg.src = 'img/quino-al-OQzxo_NcrEY-unsplash.jpg';
