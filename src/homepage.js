@@ -76,14 +76,15 @@ export function loadMain () {
 
     const main = document.createElement('div');
     main.id = 'main';
-    main.classList.add('main-home');
+    main.classList.add('rtl');
+    main.classList.add('hidden');
     const mainImg = document.createElement('img');
     mainImg.id = 'main-img';
     mainImg.src = 'img/quino-al-OQzxo_NcrEY-unsplash.jpg';
     mainImg.alt = 'Man making churros';
     const mainText = document.createElement('div');
     mainText.id = 'main-text';
-    mainText.innerHTML = 'Fresh churros & <br> coffee daily';
+    mainText.innerHTML = 'Fresh churros &<br>coffee daily';
 
     content.insertBefore(main, document.querySelector('footer'));  
     main.appendChild(mainImg);
